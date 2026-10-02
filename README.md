@@ -33,7 +33,7 @@ Este repositório contém o desenvolvimento, o equacionamento analítico e a imp
 1. Certifique-se de ter o **GNU Octave** (com o pacote `fuzzy-logic-toolkit`) ou o **MATLAB** instalado. 
 2. Abra o script principal no ambiente de sua preferência (`fuzzy_mppt.m`).
 3. Execute o script para rodar a inferência com as entradas de teste, [fuzzy_solar.m](fuzzy_solar.m).
-4. O resultado do cálculo da variação do *duty cycle* ($\Delta D$) e os detalhes numéricos serão impressos diretamente no console. Encontra-se em: [Cálculo Manual Analítico](Arquivos/calculo_manual.pdf)
+4. O resultado do cálculo da variação do *duty cycle* ($\Delta D$) e os detalhes numéricos serão impressos diretamente no console. Encontra-se em: [Cálculo Manual Analítico](fuzzy-mppt/calculo_manual.pdf)
 
 ---
 

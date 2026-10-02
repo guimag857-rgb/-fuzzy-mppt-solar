@@ -30,10 +30,10 @@ Este repositório contém o desenvolvimento, o equacionamento analítico e a imp
 
 ## 3. Guia para Execução do Código
 
-1. Certifique-se de ter o **GNU Octave** (com o pacote `fuzzy-logic-toolkit`) ou o **MATLAB** instalado.
+1. Certifique-se de ter o **GNU Octave** (com o pacote `fuzzy-logic-toolkit`) ou o **MATLAB** instalado. 
 2. Abra o script principal no ambiente de sua preferência (`fuzzy_mppt.m`).
-3. Execute o script para rodar a inferência com as entradas de teste.
-4. O resultado do cálculo da variação do *duty cycle* ($\Delta D$) e os detalhes numéricos serão impressos diretamente no console.
+3. Execute o script para rodar a inferência com as entradas de teste, [fuzzy_solar.m](fuzzy_solar.m).
+4. O resultado do cálculo da variação do *duty cycle* ($\Delta D$) e os detalhes numéricos serão impressos diretamente no console. Encontra-se em: [Cálculo Manual Analítico](Arquivos/calculo_manual.pdf)
 
 ---
 
@@ -46,6 +46,10 @@ O sistema identificou uma queda abrupta na geração combinada a uma elevação 
 A agregação dos conjuntos fuzzy resultou em uma distribuição assimétrica sobre a região negativa. A etapa de defuzzificação via Centro de Área (CDA) forneceu a seguinte resposta nítida (*crisp*):
 
 $$\Delta D \approx -0{,}2181 \text{ p.u.}$$
+
+O resultado da simulação no MATLAB é descrito na tabela a seguir:
+<img width="640" height="142" alt="resultado_matlab" src="https://github.com/user-attachments/assets/8b49d50a-0688-4489-9515-110f061e7cae" />
+
 
 
 
